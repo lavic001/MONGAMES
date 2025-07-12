@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(229, 177, 229);}
+#logo{
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  
+
+}
+
+
+
+#logo path:nth-child(1) {
+
+ animation: fill .6s ease-in-out forwards 3s;
+    fill: transparent;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: fill .3s ease-in-out forwards 1.5s;
+}
+
+
+
+@keyframes fill {
+    0% {
+        fill: transparent;
+    }
+    100% {
+        fill: purple;
+    }
